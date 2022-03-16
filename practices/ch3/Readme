@@ -1,0 +1,10 @@
+
+--------------------------------------------
+javadoc -d apidoc -windowtitle 测试 -doctitle 学习javadoc工具的测试API文档 -header 我的类 *Test.java
+
+
+对javadoc示例的简单说明：
+1.不需要新建apidoc文件夹，命令执行后会在当前目录自动生成
+2.类、包可以使用通配符 *.java
+3.进入 *.java路径，apidoc文件夹下的内容就是刚生成的API文档，进入apidoc,可浏览器打开index.html文件查看文档
+------------------------------------------------

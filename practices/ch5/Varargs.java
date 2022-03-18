@@ -21,7 +21,7 @@ public static void test(int a,String[] books);	//数组形参
 
 2.调用两个方法时存在差别
 
-test(5,"a","b");	//可变形参：实参数值无需是数组
+test(5,"a","b");	//可变形参：既可以传入多个参数，也可以传入一个数组
 
 test(5,new String[] {"a","b"});	//数组形参：实参数值须为一个数组
 

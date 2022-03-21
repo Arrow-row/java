@@ -41,11 +41,12 @@ public class SubClass extends BaseClass{
 		sc.base();
 		sc.test();
 
-		BaseClass ploymophicBc=new SubClass();
-		System.out.println(ploymophicBc.book);	//输出6，表明访问的是BaseClass对象的实例变量
+		BaseClass ploymophicBc=new SubClass();	//编译时类型BaseClass,运行时类型SubClass，系统自动向上转型upcasting
+		System.out.println(ploymophicBc.book);	//输出6，表明访问的是BaseClass对象的实例变量，变量不具有多态性
 		ploymophicBc.base();	//执行从父类继承的base()
-		ploymophicBc.test();	//执行当前类test()
+		ploymophicBc.test();	//执行当前类test(),方法具有多态性
 		//ploymophicBc.sub()	//ploymophicBc编译时类型是BaseClass,BaseClass 类未提供sub方法，此行编译时会报错
+		//引用变量在编译阶段只能调用其编译时类型所具有的方法，但运行时则执行它运行时类型所具有的方法
 
 	
 	}

@@ -20,7 +20,19 @@ public class Circle extends Shape{
 		System.out.println(s1.calPerimeter());
 	        System.out.println(s2.getType());
                 System.out.println(s2.calPerimeter());
-	}
-	
-
+	}	
 }
+
+/*
+ 
+[root@iZm5e211s4jw7g4w6pgezgZ ch6]# java Circle 
+init block of Shape...
+constructor of Shape...
+init block of Shape...
+constructor of Shape...
+triangle
+12.0
+redcircle
+18.84955592153876
+
+ * */

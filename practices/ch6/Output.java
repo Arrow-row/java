@@ -6,7 +6,7 @@ public interface Output{
 	//1.接口中普通方法只能是public修饰
 	//2.接口里定义的方法只能是抽象方法、类方法、默认方法或私有方法，系统将自动为普通方法增加abstract修饰符
 	void out();
-	void getData(String msg);
+	void getData(String msg); 
 
 	//默认方法：须使用default,不能使用static，系统自动添加public，通过接口实现类的实例调用
 	default void print(String... msgs){

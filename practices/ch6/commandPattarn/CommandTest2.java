@@ -8,3 +8,10 @@ public class CommandTest2{
        }
  }
 
+/*
+[root@iZm5e211s4jw7g4w6pgezgZ bin]# java CommandTest2
+the square of array element: 9
+the square of array element: 16
+the square of array element: 36
+the square of array element: 16
+*/

@@ -36,10 +36,17 @@ public class LambdaQs{
 
 /*
 [root@iZm5e211s4jw7g4w6pgezgZ classes]# java LambdaQs
-LambdaQs$$Lambda$1/471910020@1218025c
-the apple tastes not bad
-driving: LambdaQs$$Lambda$2/142257191@3e3abc88
-the weather of today: sunny day
-the helicopter is flying smoothly
+LambdaQs$$Lambda$1/471910020@1218025c   //line13:println(e)
+the apple tastes not bad    //line26:println("the apple tastes not bad")
+driving: LambdaQs$$Lambda$2/142257191@3e3abc88  //line17:println("driving: "+f)
+the weather of today: sunny day     //line29:println("the weather of today: "+weather)
+the helicopter is flying smoothly   //line30:println("the helicopter is flying smoothly")
 5+3= 8
+
+***************************************
+理解Lambda表达式
+1.Lambda表达式就是把函数式接口中的方法实现了，调用该方法时直接将Lambda体看成方法体，传参照样传就是了
+2.Lambda生成的对象本身就像LambdaQs$$Lambda$1/471910020@1218025c
+***************************************
+
 */

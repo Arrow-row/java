@@ -47,7 +47,8 @@ the helicopter is flying smoothly   //line30:println("the helicopter is flying s
 理解Lambda表达式
 1.Lambda表达式就是把函数式接口中的方法实现了，调用该方法时直接将Lambda体看成方法体，传参照样传就是了
 例如 执行e.taste(); 跳转到()->System.out.println("the apple tastes not bad");后，System.out.println("the apple tastes not bad")就是接口函数taste()的函数体
-2.Lambda生成的对象本身就像LambdaQs$$Lambda$1/471910020@1218025c
-***************************************
+2.Lambda生成的对象是LambdaQs$$Lambda$1/471910020@1218025c
+3.Lambda 生成的对象类型是对应的函数式接口类型
+****************************************
 
 */

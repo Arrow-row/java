@@ -14,3 +14,10 @@ public class ListErr{
 
     }
 }
+
+/*
+ *[root@iZm5e211s4jw7g4w6pgezgZ src]# javac -d ../bin/ ListErr.java 
+Note: ListErr.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+ *
+ * */

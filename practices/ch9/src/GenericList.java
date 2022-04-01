@@ -15,3 +15,18 @@ public class GenericList{
 
     }
 }
+
+
+/*
+ *[root@iZm5e211s4jw7g4w6pgezgZ src]# javac -d ../bin/ GenericList.java 
+GenericList.java:13: error: no suitable method found for add(int)
+        strList.add(5); //编译将出错
+               ^
+    method Collection.add(String) is not applicable
+      (argument mismatch; int cannot be converted to String)
+    method List.add(String) is not applicable
+      (argument mismatch; int cannot be converted to String)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error
+
+ * */

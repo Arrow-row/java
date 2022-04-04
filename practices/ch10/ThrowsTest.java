@@ -7,3 +7,13 @@ public class ThrowsTest{
 
 	}
 }
+
+/*
+[root@iZm5e211s4jw7g4w6pgezgZ bin]# java ThrowsTest
+Exception in thread "main" java.io.FileNotFoundException: a.txt (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at ThrowsTest.main(ThrowsTest.java:6)
+*/

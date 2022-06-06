@@ -16,8 +16,14 @@ public class ReferenceTransferTest{
 		DataWrap dw = new DataWrap();
 		dw.a = 6;
 		dw.b = 9;
-		swap(dw);
+		swap(dw); //dw是引用变量，将main栈中dw的引用值传给swap栈的dw引用，是值传递，DataWrap在内存中只有一份，两个dw引用指向相同
 		System.out.println("after swaping,a="+dw.a+", b="+dw.b);
 	
 }
 }
+
+/*
+ *[root@iZm5e211s4jw7g4w6pgezgZ class]# java ReferenceTransferTest 
+here in the func swap,menber var a=9, b=6
+after swaping,a=9, b=6
+ * */

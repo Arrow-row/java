@@ -16,3 +16,11 @@ public class PrimitiveTransferTest{
 }
 
 }
+
+
+/*
+ *[root@iZm5e211s4jw7g4w6pgezgZ class]# java PrimitiveTransferTest 
+here in the func swap,a=9, b=6
+after swaping:a=6	b=9
+
+ * */

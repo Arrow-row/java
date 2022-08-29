@@ -6,7 +6,7 @@ class Person{
 public class PersonTest{
 	public static void main(String[] args){
 		System.out.println("class var eyeNum of Person:"+Person.eyeNum);
-		Person p=new Person();
+		var p=new Person();
 		System.out.println("instance var name of object Person:"+p.name+"class var eyeNum of object Person:"+p.eyeNum);
 		p.name="Alice";
 		p.eyeNum=2;

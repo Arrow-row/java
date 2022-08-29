@@ -11,3 +11,9 @@ public class  ReturnThis{
 	System.out.println("the rt has a member var:"+rt.age);
 }
 }
+
+/*
+ *[root@iZm5e211s4jw7g4w6pgezgZ class]# java ReturnThis 
+the rt has a member var:3
+
+ * */

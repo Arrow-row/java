@@ -3,7 +3,7 @@ public class StaticAccessNonStatic{
 		System.out.println("***here is no static info()***");
 }
 	public static void mian(String[] args){
-	info();
+	info(); //info()方法是属于实例的方法，而不是属于类的方法
 
 /*
 1.mian()方法是静态方法,info()非静态;调用main()的是该类本身，而不是该类的实例,因此省略的this无法指向有效的对象

@@ -13,6 +13,14 @@ public class Varargs{
 }
 
 /*
+ *[root@iZm5e211s4jw7g4w6pgezgZ class]# java Varargs 
+a
+b
+c
+5
+ * */
+
+/*
 1.形参个数可变的参数本质就是一个数组参数；下面两个方法签名效果相同，在方法体中都可以把books当成数组处理
 
 public static void test(int a,String... books);	//可变形参
